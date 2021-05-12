@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF6F6"
+    android:orientation="vertical"
+    tools:context=".NhanTinActivity">
+
+    <TextView
+        android:id="@+id/txtNguoiNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Người nhận"
+        android:textColor="#19E2FB"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:text="Nội dung tin nhắn:"
+        android:textSize="24dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/txtNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <ImageButton
+        android:id="@+id/btnSend"
+        android:layout_width="62dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:background="#009688"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/sent" />
+</LinearLayout>
